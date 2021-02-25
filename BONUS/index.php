@@ -54,7 +54,7 @@
 
 <!-- --------------------------------------------------------------------------------------------------->
 
-    <h3> EXPLODE FX: Prende il paragrafo (stringa), come scritto sopra, e lo trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
+    <h3> EXPLODE FX: Prende il paragrafo ($paragrafo)-(che è una stringa), come scritto sopra, e lo trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
 
 
     <?php
@@ -73,8 +73,18 @@
       echo 'Piece 69: ';
       echo $paragrafo[68];
 
+
     //END Five Section PHP Code
     ?>
+    <br>
+
+    <h3>var_dump($variable) stamperà qui sotto l'arrey completo:</h3>
+    <br>
+    <?php
+
+    var_dump($paragrafo);
+
+     ?>
 <!-- ----------------------------------------------------------------------------------------------->
     <br><br>
 
