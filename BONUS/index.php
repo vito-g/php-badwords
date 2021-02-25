@@ -135,7 +135,17 @@
 
     ?>
 
+<!-- ---------------------------------------------------------------------------------------------->
 
+    <br>
+
+    <h3>var_dump($newArray) stamperà qui sotto l'arrey completo:</h3>
+    <br>
+    <?php
+    $newArray = ['pippo', 'paperino', 'topolino'];
+    var_dump($newArray);
+
+     ?>
 
   </body>
 
