@@ -12,7 +12,7 @@
 
       // echo $paragrafo;
 
-      $paragrafo = str_replace('dolor', '***', $paragrafo);
+      $paragrafo = str_replace($_GET['nome'], '***', $paragrafo);
       echo $paragrafo;
 
     ?>
