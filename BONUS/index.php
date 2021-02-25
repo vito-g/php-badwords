@@ -46,7 +46,7 @@
     //Sostituisco la "bad word" ("Lorem" in questo caso) passata in GET (http://localhost/php-badwords/index.php?nome=Lorem) con 3 asterischi:
     // echo 'str_replace(porzioneDaModificare, conCosa, stringa)';
     $paragrafo = str_replace($_GET['badWord'], '***', $paragrafo);
-    $paragrafo = str_replace($_GET['newBadWord'], 'xxx', $paragrafo);
+    $paragrafo = str_replace($_GET['newBadWord'], '^^^', $paragrafo);
     echo $paragrafo;
 
     //END Third Section PHP Code
