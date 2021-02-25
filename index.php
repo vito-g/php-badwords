@@ -18,8 +18,8 @@
       echo strlen ( $paragrafo );
 
       //Sostituisco la "bad word" ("Lorem" in questo caso) passata in GET (http://localhost/php-badwords/index.php?nome=Lorem) con 3 asterischi:
-      // $paragrafo = str_replace($_GET['nome'], '***', $paragrafo);
-      // echo $paragrafo;
+      $paragrafo = str_replace($_GET['nome'], '***', $paragrafo);
+      echo $paragrafo;
 
     ?>
 
