@@ -14,9 +14,12 @@
       //Stampo a schermo, il contenuto della var paragrafo:
       // echo $paragrafo;
 
-      //Sostituisco la "bad word" passata in GET (http://localhost/php-badwords/index.php?nome=Lorem) con 3 asterischi:
-      $paragrafo = str_replace($_GET['nome'], '***', $paragrafo);
-      echo $paragrafo;
+      //Calcola la lunghezza di una stringa e la stampa a schermo attraverso echo:
+      echo strlen ( $paragrafo );
+
+      //Sostituisco la "bad word" ("Lorem" in questo caso) passata in GET (http://localhost/php-badwords/index.php?nome=Lorem) con 3 asterischi:
+      // $paragrafo = str_replace($_GET['nome'], '***', $paragrafo);
+      // echo $paragrafo;
 
     ?>
 
