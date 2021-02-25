@@ -53,31 +53,25 @@
     <br><br>
 
 <!-- --------------------------------------------------------------------------------------------------->
-    <h2>Data la stringa: </h2>
 
-
-    <?php
-    //START Fourth Section PHP Code
-
-     $nomeCognome = 'Vito Gentile';
-     echo $nomeCognome;
-
-     //END Fourth Section PHP Code
-    ?>
-
-
-    <h3> Prende una stringa e la trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
+    <h3> Prende il paragrafo (stringa, come scritto più sopra, ) e lo trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
 
 
     <?php
     //START Five Section PHP Code
 
-      $nomeCognome = explode(' ', $nomeCognome);
+      $paragrafo = explode(' ', $paragrafo);
       echo 'Piece 1: ';
-      echo $nomeCognome[0];
-      echo ' ';
+      echo $paragrafo[0];
+      echo '; ';
       echo 'Piece 2: ';
-      echo $nomeCognome[1];
+      echo $paragrafo[1];
+      echo '; ';
+      echo 'Piece 5: ';
+      echo $paragrafo[4];
+      echo '; ';
+      echo 'Piece 5: ';
+      echo $paragrafo[68];
 
       //END Five Section PHP Code
     ?>
