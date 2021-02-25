@@ -54,7 +54,7 @@
 
 <!-- --------------------------------------------------------------------------------------------------->
 
-    <h3> Prende il paragrafo (stringa, come scritto più sopra, ) e lo trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
+    <h3> EXPLODE FX: Prende il paragrafo (stringa), come scritto sopra, e lo trasforma in un array specificando un "delimitatore" <span style="color: lightgrey">(' ' in questo caso)</span> tra gli elementi della stringa:</h3>
 
 
     <?php
@@ -70,11 +70,24 @@
       echo 'Piece 5: ';
       echo $paragrafo[4];
       echo '; ';
-      echo 'Piece 5: ';
+      echo 'Piece 69: ';
       echo $paragrafo[68];
 
-      //END Five Section PHP Code
+    //END Five Section PHP Code
     ?>
+<!-- ----------------------------------------------------------------------------------------------->
+
+  <h3>TRIM FX - toglierà gli spazi bianchi all’inizio e alla fine di una stringa</h3>
+  <mark>
+
+    <?php
+    $stringa = '  ipsum dolor sit amet, ';
+    trim($stringa);
+    echo $stringa;
+
+    ?>
+    
+  </mark>
 
   </body>
 
