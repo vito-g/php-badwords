@@ -76,18 +76,29 @@
     //END Five Section PHP Code
     ?>
 <!-- ----------------------------------------------------------------------------------------------->
+  <br><br>
 
   <h3>TRIM FX - toglierà gli spazi bianchi all’inizio e alla fine di una stringa</h3>
   <mark>
 
     <?php
-    $stringa = '  ipsum dolor sit amet, ';
-    trim($stringa);
-    echo $stringa;
+      $stringa = '  ipsum dolor sit amet, ';
+      trim($stringa);
+      echo $stringa;
 
     ?>
-    
+
   </mark>
+<!-- ----------------------------------------------------------------------------------------------->
+  <br><br>
+
+  <h3>STRPOS FX - cerca all’interno di una stringa un’altra stringa e torna la posizione (del primo caratttere della stringa)-(non tiene conto della precedente operazione di TRIM)</h3>
+
+  <?php
+    // $stringa = '  ipsum dolor sit amet, ';
+    echo strpos($stringa, 'ipsum');
+
+  ?>
 
   </body>
 
